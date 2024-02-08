@@ -1,0 +1,51 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <h1>Player v.s. enemy</h1>
+ 
+  <main>
+    <div class="select-container">
+      <label for="player-select">Choose your player:</label>
+      <select id="player-select">
+        <option value="0">Aqua</option>
+        <option value="1">Riku</option>
+        <option value="2">Luke Skywalker</option>
+        <option value="3">Yoda</option>
+      </select>
+      <div id="player-properties"></div>
+    </div>
+
+    <div class="select-container">
+      <label for="enemy-select">Choose your enemy:</label>
+      <select id="enemy-select">
+        <option value="0">Sephiroth</option>
+        <option value="1">Ansem</option>
+        <option value="2">Darth Vader</option>
+        <option value="3">Darth Sidious</option>
+      </select>
+      <div id="enemy-properties"></div>
+    </div>
+
+    <button type="submit" id="start-battle-btn">Start Battle</button>
+
+    <div id="battle-log"></div> <!-- Battle log container -->
+  </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
